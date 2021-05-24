@@ -1,7 +1,6 @@
 provider "aws"{
   region="eu-west-2"
-  access_key="AKIAYSP2ULZP5XFZYYPS"
-  secret_key="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"
+  
 }
 resource "aws_s3_bucket" "b" {
   bucket = "my-tf-test-bucket"
